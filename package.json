@@ -5,17 +5,22 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon --watch server --exec babel-node -- server/index.js",
     "dev": "webpack-dev-server --mode development --open /dist/index.html --hot",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "start": "node server/index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^6.0.0",
     "express": "^4.16.3",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-redux": "^5.0.7",
-    "redux": "^4.0.0"
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0",
+    "twit": "^2.2.10"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
@@ -25,6 +30,8 @@
     "css-loader": "^0.28.11",
     "html-webpack-plugin": "^3.2.0",
     "node-sass": "^4.9.0",
+    "nodemon": "^1.17.5",
+    "redux-logger": "^3.0.6",
     "sass-loader": "^7.0.3",
     "style-loader": "^0.21.0",
     "url-loader": "^1.0.1",
