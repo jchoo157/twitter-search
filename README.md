@@ -1,7 +1,7 @@
 # Twitter Search Hashtags
 View it live at https://twitter-search-hashtags.herokuapp.com/
 
-![Simple Task Desktop](https://github.com/jchoo157/twitter-search-hashtags/blob/master/public/twitter-search-site.png)
+![Twitter Search Hashtags](https://github.com/jchoo157/twitter-search/blob/master/public/twitter-search-site.png)
 
 Easily look up tweets with certain Hashtags!
 
