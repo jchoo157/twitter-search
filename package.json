@@ -8,6 +8,7 @@
     "server": "nodemon --watch server --exec babel-node -- server/index.js",
     "dev": "webpack-dev-server --mode development --open /dist/index.html --hot",
     "build": "webpack --mode production",
+    "postinstall": "webpack -p",
     "start": "node server/index.js"
   },
   "author": "",
